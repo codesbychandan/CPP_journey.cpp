@@ -91,6 +91,18 @@ int main (){
 
 }
 /*===============================================================================================================*/
+// Q. calculate the simple interest
+// formula si= prt /100
+
+#include<iostream>
+using namespace std;
+int main (){
+    cout<<"enter the values:";
+    float p,r,t;
+    cin>>p>>r>>t;
+    float simple_interest = (p*r*t)/100;
+    cout<<simple_interest;
+}
 
 
 
